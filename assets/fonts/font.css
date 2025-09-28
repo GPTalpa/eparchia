@@ -1,0 +1,89 @@
+/* ExtraLight */
+@font-face {
+  font-family: "Vela Sans";
+  src: url("VelaSans-ExtraLight.woff2") format("woff2"),
+    url("VelaSans-ExtraLight.woff") format("woff"),
+    url("VelaSans-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Light */
+@font-face {
+  font-family: "Vela Sans";
+  src: url("VelaSans-Light.woff2") format("woff2"),
+    url("VelaSans-Light.woff") format("woff"),
+    url("VelaSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Regular */
+@font-face {
+  font-family: "Vela Sans";
+  src: url("VelaSans-Regular.woff2") format("woff2"),
+    url("VelaSans-Regular.woff") format("woff"),
+    url("VelaSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Medium */
+@font-face {
+  font-family: "Vela Sans";
+  src: url("VelaSans-Medium.woff2") format("woff2"),
+    url("VelaSans-Medium.woff") format("woff"),
+    url("VelaSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* SemiBold */
+@font-face {
+  font-family: "Vela Sans";
+  src: url("VelaSans-SemiBold.woff2") format("woff2"),
+    url("VelaSans-SemiBold.woff") format("woff"),
+    url("VelaSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Vela Sans";
+  src: url("VelaSans-Bold.woff2") format("woff2"),
+    url("VelaSans-Bold.woff") format("woff"),
+    url("VelaSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ExtraBold */
+@font-face {
+  font-family: "Vela Sans";
+  src: url("VelaSans-ExtraBold.woff2") format("woff2"),
+    url("VelaSans-ExtraBold.woff") format("woff"),
+    url("VelaSans-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Esencia Regular";
+  src: url("../fonts/esencia_regular.eot"); /* IE 9 Compatibility Mode */
+  src: url("../fonts/esencia_regular.eot?#iefix") format("embedded-opentype"),
+    /* IE < 9 */ url("../fonts/esencia_regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/esencia_regular.woff")
+      format("woff"),
+    /* Firefox >= 3.6, any other modern browser */
+      url("../fonts/esencia_regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/esencia_regular.svg#esencia_regular") format("svg"); /* Chrome < 4, Legacy iOS */
+}
