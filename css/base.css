@@ -272,6 +272,10 @@ footer a {
   margin-top: 80px;
 }
 
+.sacrament_description .gorizontal_separator {
+  display: none;
+}
+
 .sacrament_description .vertical_separator {
   height: auto;
   margin: 0 40px 0 20px;
@@ -373,6 +377,10 @@ footer a {
     margin-top: 30px;
   }
 
+  .footer_column p:last-child {
+    text-align: center;
+  }
+
   .navigation_item {
     align-items: center;
   }
@@ -398,6 +406,10 @@ footer a {
   }
   .sacrament_description {
     flex-direction: column;
+  }
+
+  .sacrament_description .gorizontal_separator {
+    display: block;
   }
 
   .contacts h2 {
