@@ -1,5 +1,9 @@
 @import url("../assets/fonts/font.css");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Vela Sans", sans-serif;
   color: #00688b;
@@ -223,4 +227,185 @@ footer a {
 
 .copyright p {
   padding-bottom: 20px;
+}
+
+.schedule_services_content {
+  display: flex;
+  justify-content: center;
+}
+
+.schedule_services_item {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule_services_item div {
+  display: flex;
+}
+
+.schedule_services_item div p:first-child {
+  margin-right: 10px;
+}
+
+.schedule_services_item p:first-child,
+.schedule_services_item div p:first-child {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.schedule_services_item div p:last-child {
+  font-size: 24px;
+}
+
+.schedule_services_content .vertical_separator {
+  height: auto;
+}
+
+.sacrament_imgs {
+  display: flex;
+}
+
+.sacrament_description {
+  display: flex;
+  font-size: 30px;
+  margin-top: 80px;
+}
+
+.sacrament_description .vertical_separator {
+  height: auto;
+  margin: 0 40px 0 20px;
+}
+
+.sacrament_description .vertical_separator:first-child {
+  margin-left: 0;
+}
+
+.sacrament_description p {
+  font-weight: 600;
+}
+
+.sacrament_description ol {
+  margin-left: 35px;
+}
+
+.contacts {
+  text-align: center;
+}
+
+.contacts h2 {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.contacts p {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.contacts img {
+  height: 58px;
+}
+
+@media (max-width: 480px) {
+  header {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  .header_contacts {
+    display: none;
+  }
+
+  .title_content {
+    flex-direction: column;
+  }
+
+  .title_content img {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .title p {
+    font-size: 18px;
+  }
+
+  main {
+    max-width: none;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 75px;
+  }
+
+  .news_content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .history_container_img img {
+    max-width: 100%;
+  }
+
+  .murals_content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer_wrapper {
+    flex-direction: column;
+  }
+
+  .footer_title {
+    flex-direction: column;
+  }
+
+  .footer_title p {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .footer_column:first-child {
+    min-width: 0;
+  }
+
+  .footer_column:last-child {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .navigation_item {
+    align-items: center;
+  }
+
+  .footer_social {
+    text-align: center;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
+  .schedule_services h2 {
+    margin-top: 20px;
+  }
+
+  .schedule_services_content {
+    flex-direction: column;
+  }
+
+  .sacrament_imgs {
+    flex-direction: column;
+  }
+  .sacrament_description {
+    flex-direction: column;
+  }
+
+  .contacts h2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .contacts p {
+    font-size: 24px;
+  }
 }

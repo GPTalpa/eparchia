@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Главная</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/components.css">
     <link rel="stylesheet" href="./css/base.css">
@@ -13,8 +13,8 @@
 <body>
     <header>
         <a href="/">Главная</a>
-        <a href="/schedule">Расписание и таинства</a>
-        <a href="/contacts">Контакты</a>
+        <a href="./schedule.html">Расписание и таинства</a>
+        <a href="./contacts.html">Контакты</a>
         <div class="header_contacts">
             <a href="https://vk.com/club225956605"><img src="./assets/icons/vk.webp" alt="vk"></a>
             <a href="https://t.me/HramNovorossiysk"><img src="./assets/icons/tg.webp" alt="tg"></a>
@@ -30,7 +30,7 @@
             </div>
             <p>Настоятель храма: Иерей Георгий Голубев</p>
         </section>
-        <section class="schedule">
+        <section class="schedule" id="schedule">
             <div class="schedule_content">
                 <h2>РАСПИСАНИЕ БОГОСЛУЖЕНИЙ</h2>
                 <div class="schedule_item">
@@ -68,7 +68,7 @@
                 <img src="./images/schedule_img.webp" alt="">
             </div>
         </section>
-        <section class="news">
+        <section class="news" id="news">
             <h2>НОВОСТИ И СОБЫТИЯ</h2>
             <div class="news_content">
                 <div class="news_item">
@@ -99,12 +99,12 @@
                 </div>
             </div>
         </section>
-        <section class="excursion">
+        <section class="excursion" id="excursion">
             <h2>ЭКСКУРСИЯ ПО ХРАМУ</h2>
             <div class="img_container">
             </div>
         </section>
-        <section class="history">
+        <section class="history" id="history">
             <h2>ИСТОРИЯ РАВНОАПОСТОЛЬНОЙ НИНЫ</h2>
             <div class="history_container_img">
                 <img src="./images/history.webp" alt="history">
@@ -115,8 +115,8 @@
                     возбудили в Нине сильное желание посетить эту страну и просветить ее жителей светом Евангелия.
                     Желание это еще более усилилось, когда она однажды увидела в видении Матерь Божию, вручающую ей
                     крест из виноградных лоз.
-                    И желание ее сбылось, когда ей пришлось бежать
-                    в Иверию, спасаясь от гонения, воздвигнутого императором Диоклитианом (284–305 гг.).
+                    И желание ее сбылось, когда ей пришлось бежать в Иверию, спасаясь от гонения, воздвигнутого
+                    императором Диоклитианом (284–305 гг.).
                     В Иверии святая Нина поселилась у одной женщины в царских виноградниках и очень скоро сделалась
                     известной в окрестностях, потому что оказывала помощь многим страждущим. Узнав о силе ее молитв,
                     больные стали во множестве приходить к ней. Призывая имя Христово, святая Нина исцеляла их и
@@ -150,7 +150,7 @@
             </div>
         </section>
         <div class="gorizontal_separator"></div>
-        <section class="murals">
+        <section class="murals" id="murals">
             <h2>РОСПИСИ ХРАМА</h2>
             <div class="murals_content">
                 <img src="./images/murals1.png" alt="murals1">
@@ -179,19 +179,19 @@
                         <a href="/">Главная</a>
                     </div>
                     <div class="navigation_item">
-                        <a href="#">Новости</a>
+                        <a href="#news">Новости</a>
                     </div>
                     <div class="navigation_item">
-                        <a href="">О храме</a>
-                        <a href="" class="little">История храма</a>
-                        <a href="" class="little">Росписи храма</a>
+                        <a href="#excursion">О храме</a>
+                        <a href="#history" class="little">История храма</a>
+                        <a href="#murals" class="little">Росписи храма</a>
                     </div>
                     <div class="navigation_item">
-                        <a href="">Богослужения</a>
-                        <a href="" class="little">Расписания и таинства</a>
+                        <a href="#schedule">Богослужения</a>
+                        <a href="/schedule.html" class="little">Расписания и таинства</a>
                     </div>
                     <div class="navigation_item">
-                        <a href="">Контакты</a>
+                        <a href="/contacts.html">Контакты</a>
                     </div>
                 </div>
                 <div class="footer_social">
@@ -205,6 +205,7 @@
         </div>
 
     </footer>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

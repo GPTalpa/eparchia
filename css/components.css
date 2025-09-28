@@ -29,7 +29,7 @@ h2 {
 
 .vertical_separator {
   width: 1px;
-  height: 64px;
+  height: 100%;
   background: #00688b;
   margin: 0 20px 0 30px;
 }
@@ -39,4 +39,19 @@ h2 {
   height: 2px;
   background: #00688b;
   margin-bottom: 30px;
+}
+
+@media (max-width: 480px) {
+  .vertical_separator {
+    margin: 0 10px 0 15px;
+  }
+
+  h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
 }
