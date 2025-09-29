@@ -397,6 +397,14 @@ footer a {
     margin-top: 20px;
   }
 
+  .schedule_item {
+    font-size: 18px;
+  }
+
+  .schedule img {
+    display: none;
+  }
+
   .schedule_services_content {
     flex-direction: column;
   }
@@ -419,5 +427,37 @@ footer a {
 
   .contacts p {
     font-size: 24px;
+  }
+
+  .history_container_img p {
+    font-size: 16px;
+  }
+
+  .date {
+    font-size: 16px;
+  }
+
+  .news_item div p:last-child {
+    font-size: 19px;
+  }
+
+  .history_memory p:first-child {
+    font-size: 22px;
+  }
+
+  .history_memory p {
+    font-size: 18px;
+  }
+
+  .footer_title p {
+    font-size: 22px;
+  }
+
+  .footer_column a {
+    font-size: 22px;
+  }
+
+  .footer_column a.little {
+    font-size: 16px;
   }
 }
