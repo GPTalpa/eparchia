@@ -311,6 +311,131 @@ footer a {
   height: 58px;
 }
 
+@media (max-width: 1200px) {
+  .header_contacts {
+    display: none;
+  }
+
+  .news_item {
+    max-width: 270px;
+  }
+
+  .murals_content img {
+    max-width: 270px;
+  }
+
+  .sacrament_imgs {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .schedule_services_item p:first-child,
+  .schedule_services_item div p:first-child {
+    font-size: 19px;
+  }
+
+  .schedule_services_item div p:last-child {
+    font-size: 16px;
+  }
+
+  .schedule_services_content {
+    flex-direction: column;
+    align-items: baseline;
+    width: fit-content;
+    margin: 0 auto;
+    gap: 15px;
+  }
+
+  .sacrament_description {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 950px) {
+  .title_content h1 {
+    font-size: 51px;
+  }
+  .footer_wrapper {
+    flex-direction: column;
+  }
+
+  .footer_title {
+    flex-direction: column;
+  }
+
+  .schedule img {
+    display: none;
+  }
+
+  .schedule {
+    justify-content: center;
+  }
+
+  .footer_title p {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .footer_column:first-child {
+    min-width: 0;
+  }
+
+  .footer_column:last-child {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .footer_column p:last-child {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .navigation_item {
+    align-items: center;
+  }
+
+  .footer_social {
+    text-align: center;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+  .murals_content {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .news_content {
+    align-items: stretch;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 650px) {
+  .schedule {
+    justify-content: center;
+  }
+
+  .title_content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .title_content img {
+    margin-right: 0;
+  }
+
+  .title_content h1 {
+    text-align: center;
+  }
+}
+
 @media (max-width: 480px) {
   header {
     font-size: 16px;
@@ -337,13 +462,14 @@ footer a {
   main {
     max-width: none;
     width: 100%;
-    padding: 5px;
+    padding: 15px;
     margin-bottom: 75px;
   }
 
   .news_content {
     flex-direction: column;
     gap: 20px;
+    align-content: center;
   }
 
   .history_container_img img {
@@ -353,32 +479,7 @@ footer a {
   .murals_content {
     flex-direction: column;
     gap: 20px;
-  }
-
-  .footer_wrapper {
-    flex-direction: column;
-  }
-
-  .footer_title {
-    flex-direction: column;
-  }
-
-  .footer_title p {
-    margin-left: 0;
-    text-align: center;
-  }
-
-  .footer_column:first-child {
-    min-width: 0;
-  }
-
-  .footer_column:last-child {
-    flex-direction: column;
-    margin-top: 30px;
-  }
-
-  .footer_column p:last-child {
-    text-align: center;
+    align-content: center;
   }
 
   .navigation_item {
