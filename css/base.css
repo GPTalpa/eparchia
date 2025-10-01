@@ -313,15 +313,15 @@ footer a {
 
 @media (min-width: 1921px) {
   body {
-    height: calc(100vh);
+    min-height: calc(100vh);
   }
 
   .main_contacts {
-    height: calc(100vh - 815px);
+    min-height: calc(100vh - 815px);
   }
 
   .main {
-    height: calc(100vh - 765px);
+    min-height: calc(100vh - 765px);
   }
 }
 
