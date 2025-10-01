@@ -8,14 +8,12 @@ body {
   font-family: "Vela Sans", sans-serif;
   color: #00688b;
   margin: 0 auto;
-  min-height: 100vh;
 }
 
 main {
   margin: 0 auto;
   margin-bottom: 150px;
   max-width: 1200px;
-  min-height: 100vh;
 }
 
 header {
@@ -311,6 +309,20 @@ footer a {
 
 .contacts img {
   height: 58px;
+}
+
+@media (min-width: 1921px) {
+  body {
+    height: calc(100vh);
+  }
+
+  .main_contacts {
+    height: calc(100vh - 815px);
+  }
+
+  .main {
+    height: calc(100vh - 765px);
+  }
 }
 
 @media (max-width: 1200px) {
